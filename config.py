@@ -1,30 +1,10 @@
-# (c) @RknDeveloperr
-# Rkn Developer 
-# Don't Remove Credit 😔
-# Telegram Channel @RknDeveloper & @Rkn_Botz
-# Developer @RknDeveloperr
-# Special Thanks To @ReshamOwner
-# Update Channel @Digital_Botz & @DigitalBotz_Support
+# (c) @SONY_YAY_0000
+# Tanveer Developer 
+# Telegram Channel @DorutoChan & @doraemon_all_episode_movies
+# Update Channel @DorutoChan & @doraemon_all_episode_movies
 """
-Apache License 2.0
-Copyright (c) 2022 @Digital_Botz
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
-
-Telegram Link : https://t.me/Digital_Botz 
+Telegram Link : https://t.me/Legendary_friend_chatting 
 Repo Link : https://github.com/DigitalBotz/Digital-Rename-Bot
 License Link : https://github.com/DigitalBotz/Digital-Rename-Bot/blob/main/LICENSE
 """
@@ -34,24 +14,24 @@ id_pattern = re.compile(r'^.\d+$')
 
 class Config(object):
     # digital_botz client config
-    API_ID = os.environ.get("API_ID", "")
-    API_HASH = os.environ.get("API_HASH", "")
-    BOT_TOKEN = os.environ.get("BOT_TOKEN", "") 
+    API_ID = os.environ.get("API_ID", "13516702")
+    API_HASH = os.environ.get("API_HASH", "bf0cc3f062841935d3d5da65134ca4cf")
+    BOT_TOKEN = os.environ.get("BOT_TOKEN", "7742278753:AAHngjTxD17i0QP27z1rPmZpOVTh7ymFdSw") 
 
     # premium account string session required 😢 
     STRING_SESSION = os.environ.get("STRING_SESSION", "")
     
     # database config
-    DB_NAME = os.environ.get("DB_NAME","Digital_Rename_Bot")     
-    DB_URL = os.environ.get("DB_URL","")
+    DB_NAME = os.environ.get("DB_NAME","Tanveer_Rename_Bot")     
+    DB_URL = os.environ.get("DB_URL","mongodb+srv://Gamerzone:Tanveerali@cluster0.mkliddn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
  
     # other configs
     RKN_PIC = os.environ.get("RKN_PIC", "https://telegra.ph/file/b746aadfe59959eb76f59.jpg")
-    ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '6705898491').split()]
+    ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '6407533831').split()]
     LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002123429361"))
 
     # free upload limit 
-    FREE_UPLOAD_LIMIT = 6442450944 # calculation 6*1024*1024*1024=results
+    FREE_UPLOAD_LIMIT = 6407533831 # calculation 6*1024*1024*1024=results
 
     # premium mode feature ✅
     UPLOAD_LIMIT_MODE = True 
@@ -76,16 +56,12 @@ class rkn(object):
 𝚈ᴏᴜ 𝙲ᴀɴ 𝙰ʟsᴏ 𝙲ᴏɴᴠᴇʀᴛ 𝚅ɪᴅᴇᴏ 𝚃ᴏ 𝙵ɪʟᴇ & 𝙵ɪʟᴇ 𝚃ᴏ 𝚅ɪᴅᴇᴏ
 𝚃𝙷𝙸𝚂 𝙱𝙾𝚃 𝙰𝙻𝚂𝙾 𝚂𝚄𝙿𝙿𝙾𝚁𝚃𝚂 𝙲𝚄𝚂𝚃𝙾𝙼 𝚃𝙷𝚄𝙼𝙱𝙽𝙰𝙸𝙻 𝙰𝙽𝙳 𝙲𝚄𝚂𝚃𝙾𝙼 𝙲𝙰𝙿𝚃𝙸𝙾𝙽
 
-Tʜɪs Bᴏᴛ Wᴀs Cʀᴇᴀᴛᴇᴅ Bʏ : @Digital_Botz 💞</b>"""
+Tʜɪs Bᴏᴛ Wᴀs Cʀᴇᴀᴛᴇᴅ Bʏ : @SONY_YAY_0000 💞</b>"""
 
     ABOUT_TXT = """<b>╭───────────⍟
-├🤖 ᴍy ɴᴀᴍᴇ : {}
-├🖥️ Dᴇᴠᴇʟᴏᴩᴇʀꜱ : {}
-├👨‍💻 Pʀᴏɢʀᴀᴍᴇʀ : {}
-├📕 Lɪʙʀᴀʀy : {}
-├✏️ Lᴀɴɢᴜᴀɢᴇ: {}
-├💾 Dᴀᴛᴀ Bᴀꜱᴇ: {}
-├📊 ᴠᴇʀsɪᴏɴ: <a href=https://github.com/DigitalBotz/Digital-Rename-Bot>{}</a></b>     
+├🤖 ᴍy ɴᴀᴍᴇ : {Tanveer rename bot}
+├🖥️ Dᴇᴠᴇʟᴏᴩᴇʀꜱ : {@SONY_YAY_0000}
+├👨‍💻 Pʀᴏɢʀᴀᴍᴇʀ : {Tanveer}
 ╰───────────────⍟ """
 
     HELP_TXT = """
@@ -169,13 +145,13 @@ V𝟹.𝟶.𝟶 [STABLE]
 
 ☞ Fᴏʀ Exᴀᴍᴘʟᴇ:-
 
-`--change-title @Rkn_Botz
---change-video-title @Rkn_Botz
---change-audio-title @Rkn_Botz
---change-subtitle-title @Rkn_Botz
---change-author @Rkn_Botz`
+`--change-title @SONY_YAY_0000
+--change-video-title @SONY_YAY_0000
+--change-audio-title @SONY_YAY_0000
+--change-subtitle-title @SONY_YAY_0000
+--change-author @SONY_YAY_0000
 
-📥 Fᴏʀ Hᴇʟᴘ Cᴏɴᴛ. @Digital_Botz
+📥 Fᴏʀ Hᴇʟᴘ Cᴏɴᴛ. @SONY_YAY_0000
 """
     
     CUSTOM_FILE_NAME = """
@@ -190,12 +166,12 @@ you can pre-add a prefix and suffix along with your new filename
 ➢ /see_suffix - Tᴏ Sᴇᴇ Yᴏᴜʀ Sᴜғғɪx !!
 ➢ /del_suffix - Tᴏ Dᴇʟᴇᴛᴇ Yᴏᴜʀ Sᴜғғɪx !!
 
-Exᴀᴍᴩʟᴇ:- `/set_suffix @Digital_Botz`
-Exᴀᴍᴩʟᴇ:- `/set_prefix @Digital_Botz`
+Exᴀᴍᴩʟᴇ:- `/set_suffix @SONY_YAY_0000`
+Exᴀᴍᴩʟᴇ:- `/set_prefix @SONY_YAY_0000`
 """
     
     #⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️⚠️
-#⚠️ Dᴏɴ'ᴛ Rᴇᴍᴏᴠᴇ Oᴜʀ Cʀᴇᴅɪᴛꜱ @RknDeveloper🙏🥲
+#⚠️ Dᴏɴ'ᴛ Rᴇᴍᴏᴠᴇ Oᴜʀ Cʀᴇᴅɪᴛꜱ @SONY_YAY_0000🙏🥲
     # ᴡʜᴏᴇᴠᴇʀ ɪs ᴅᴇᴘʟᴏʏɪɴɢ ᴛʜɪs ʀᴇᴘᴏ ɪs ᴡᴀʀɴᴇᴅ ⚠️ ᴅᴏ ɴᴏᴛ ʀᴇᴍᴏᴠᴇ ᴄʀᴇᴅɪᴛs ɢɪᴠᴇɴ ɪɴ ᴛʜɪs ʀᴇᴘᴏ #ғɪʀsᴛ ᴀɴᴅ ʟᴀsᴛ ᴡᴀʀɴɪɴɢ ⚠️
     DEV_TXT = """<b><u>Sᴩᴇᴄɪᴀʟ Tʜᴀɴᴋꜱ & Dᴇᴠᴇʟᴏᴩᴇʀꜱ</b></u>
     
@@ -211,16 +187,16 @@ Exᴀᴍᴩʟᴇ:- `/set_prefix @Digital_Botz`
 
 ☞ Fᴏʀ Exᴀᴍᴘʟᴇ:-
 
-`--change-title @Rkn_Botz
---change-video-title @Rkn_Botz
---change-audio-title @Rkn_Botz
---change-subtitle-title @Rkn_Botz
---change-author @Rkn_Botz`
+`--change-title @SONY_YAY_0000
+--change-video-title @SONY_YAY_0000
+--change-audio-title @SONY_YAY_0000
+--change-subtitle-title @SONY_YAY_0000
+--change-author @SONY_YAY_0000
 
-📥 Fᴏʀ Hᴇʟᴘ Cᴏɴᴛ. @Digital_Botz
+📥 Fᴏʀ Hᴇʟᴘ Cᴏɴᴛ. @SONY_YAY_0000
 """
     
-    RKN_PROGRESS = """<b>\n
+    TANVEER_BOT_PROGRESS = """<b>\n
 ╭━━━━❰RKN PROCESSING...❱━➣
 ┣⪼ 🗃️ ꜱɪᴢᴇ: {1} | {2}
 ┣⪼ ⏳️ ᴅᴏɴᴇ : {0}%
@@ -228,8 +204,5 @@ Exᴀᴍᴩʟᴇ:- `/set_prefix @Digital_Botz`
 ┣⪼ ⏰️ ᴇᴛᴀ: {4}
 ╰━━━━━━━━━━━━━━━➣ </b>"""
 
-# Rkn Developer 
-# Don't Remove Credit 😔
-# Telegram Channel @RknDeveloper & @Rkn_Botz
-# Developer @RknDeveloperr
-# Update Channel @Digital_Botz & @DigitalBotz_Support
+# Tanveer Developer 
+

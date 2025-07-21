@@ -49,7 +49,7 @@ from plugins.web_support import web_server
 from plugins.file_rename import app
 
 
-pyrogram.utils.MIN_CHANNEL_ID = -1009999999999
+pyrogram.utils.MIN_CHANNEL_ID = -1002760856435
 
 # Get logging configurations
 logging.basicConfig(
@@ -111,7 +111,7 @@ class DigitalRenameBot(Client):
                 try: await self.send_message(id, f"𝟮𝗚𝗕- ғɪʟᴇ sᴜᴘᴘᴏʀᴛ ʜᴀs ʙᴇᴇɴ ᴀᴅᴅᴇᴅ ᴛᴏ ʏᴏᴜʀ ʙᴏᴛ.\n\n**__{me.first_name}  Iꜱ Sᴛᴀʀᴛᴇᴅ.....✨️__**")                                
                 except: pass
                     
-        if Config.LOG_CHANNEL:
+        if Config.LOG_CHANNEL:1002760856435
             try:
                 curr = datetime.datetime.now(pytz.timezone("Asia/Kolkata"))
                 date = curr.strftime('%d %B, %Y')

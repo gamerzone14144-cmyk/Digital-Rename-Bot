@@ -5,7 +5,7 @@
 """
 
 Telegram Link : https://t.me/Legendary_friend_chatting 
-Repo Link : https://github.com/DigitalBotz/Digital-Rename-Bot
+Repo Link : https://github.com/gamerzone14144-cmyk/Digital-Rename-Bot/blob/main/README.md
 License Link : https://github.com/DigitalBotz/Digital-Rename-Bot/blob/main/LICENSE
 """
 
@@ -23,12 +23,12 @@ class Config(object):
     
     # database config
     DB_NAME = os.environ.get("DB_NAME","Tanveer_Rename_Bot")     
-    DB_URL = os.environ.get("DB_URL","mongodb+srv://Gamerzone:Tanveerali@cluster0.mkliddn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
+    DB_URL = os.environ.get("DB_URL","mongodb+srv://Tanveer_devolper:hmvg3Wjpf64Sk7QN@cluster0.mkliddn.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
  
     # other configs
     RKN_PIC = os.environ.get("RKN_PIC", "https://telegra.ph/file/b746aadfe59959eb76f59.jpg")
     ADMIN = [int(admin) if id_pattern.search(admin) else admin for admin in os.environ.get('ADMIN', '6407533831').split()]
-    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002123429361"))
+    LOG_CHANNEL = int(os.environ.get("LOG_CHANNEL", "-1002760856435"))
 
     # free upload limit 
     FREE_UPLOAD_LIMIT = 6407533831 # calculation 6*1024*1024*1024=results
